@@ -1,0 +1,136 @@
+header{
+    justify-content: space-between;
+    display: flex;
+    height: 65px;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(29, 33, 40);
+}
+.logo_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+}
+.menu_bar{
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+}
+.btn_bar{
+   display: inline-block;
+   margin-left: 15px;
+   background-color: rgb(29, 33, 40);
+   color: white;
+   padding: 5px;
+   text-decoration: none;
+   font-size: 35px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+li{
+    text-decoration: none;
+    display: inline;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.logo_bar img{
+    height: 90px;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 33, 40);
+    background-image: url(media/LayerNormal.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -100px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+p1{
+    color: white;
+    font-size: 13px;
+    justify-content: space-between;
+}
+.presentation_txt{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 165px;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.subpresentation_txt{
+    margin-top: -30px;
+    padding-left: 190px;
+}
+button{
+    margin-left: 195px;
+    margin-top: 60px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 35px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    border-width: 0px;
+    justify-content: space-between;
+}
+.info_txt{
+   padding-left: 850px;
+   margin-top: -415px;
+}
+h2{
+    color: white;
+    font-size: 13.5px;
+}
+.social_media{
+    padding-left: 850px;
+}
+p2{
+    color: white;
+    font-size: 12.5px;
+}
+h3{
+    color: white;
+    font-size: 13.5px;
+    padding-top: 5px;
+}
+p3{
+    color: white;
+    font-size: 12.5px;
+}
+h4{
+    color: white;
+    font-size: 13.5px;
+    padding-top: 5px;
+}
+.social_media img{
+    margin: 4.5px;
+    width: 24px;
+    height: 24px;
+}
+h5{
+    color: gray;
+    opacity: 40%;
+    font-size: 7px;
+}
+li1{
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+li1:hover{
+    text-decoration-color: gray;
+}
