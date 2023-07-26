@@ -3,7 +3,7 @@ header{
     display: flex;
     height: 65px;
     align-items: center;
-    margin: 0px;
+    margin: -5px;
     padding: 5px;
     background-color: rgb(29, 33, 40);
 }
@@ -85,6 +85,7 @@ button{
     height: 85px;
     border-width: 0px;
     justify-content: space-between;
+    overflow: hidden;
 }
 .info_txt{
    padding-left: 850px;
@@ -133,4 +134,8 @@ li1{
 }
 li1:hover{
     text-decoration-color: gray;
+}
+button:hover{
+    background-color: skyblue;
+    transition: 0.8s;
 }
